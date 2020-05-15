@@ -1,3 +1,5 @@
-add_executable (Application program.cpp)
+set(MY_NAME Application)
 
-target_link_libraries (Application LINK_PUBLIC MathLibrary)
+add_executable (${MY_NAME} program.cpp)
+
+target_link_libraries (${MY_NAME} LINK_PUBLIC MathLibrary)
