@@ -1,6 +1,10 @@
-add_library (MathLibrary source/arithmetic.cpp)
+set (MY_NAME MathLibrary)
 
-target_include_directories (MathLibrary PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
+file (GLOB MY_SOURCES source/*.cpp)
+
+add_library (${MY_NAME} ${MY_SOURCES})
+
+target_include_directories (${MY_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
 
 enable_testing()
 

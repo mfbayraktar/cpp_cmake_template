@@ -1,4 +1,4 @@
-set(MY_NAME Application)
+set (MY_NAME Application)
 
 file (GLOB MY_SOURCES *.cpp)
 
