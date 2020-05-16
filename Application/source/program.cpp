@@ -1,9 +1,8 @@
 #include <iostream>
-#include "arithmetic.hpp"
+#include "user_input.hpp"
 
 int main() {
-
-    std::cout << multiply(3, 5) << std::endl;
+    get_from_user_and_multiply();
 
     return 0;
 }

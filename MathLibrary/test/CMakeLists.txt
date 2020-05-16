@@ -1,8 +1,11 @@
 set (MY_NAME MathLibraryTests)
 
-file (GLOB MY_SOURCES *.cpp)
-
-add_executable(${MY_NAME} ${MY_SOURCES})
+add_executable
+(
+    ${MY_NAME}
+    
+    MathLibraryTest.cpp
+)
 
 target_link_libraries(${MY_NAME} PUBLIC
     gtest_main

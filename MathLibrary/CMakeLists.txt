@@ -1,8 +1,11 @@
 set (MY_NAME MathLibrary)
 
-file (GLOB MY_SOURCES source/*.cpp)
-
-add_library (${MY_NAME} ${MY_SOURCES})
+add_library
+(
+    ${MY_NAME}
+    
+    source/arithmetic.cpp
+)
 
 target_include_directories (${MY_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
 
