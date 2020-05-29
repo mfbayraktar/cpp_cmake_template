@@ -2,3 +2,9 @@
 	path = 3rdparty/googletest
 	url = https://github.com/google/googletest.git
 	branch = v1.8.x
+[submodule "3rdparty/boost/asio"]
+	path = 3rdparty/boost/asio
+	url = https://github.com/boostorg/asio.git
+[submodule "3rdparty/boost/system"]
+	path = 3rdparty/boost/system
+	url = https://github.com/boostorg/system.git
