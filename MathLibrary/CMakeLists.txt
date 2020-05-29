@@ -1,7 +1,6 @@
 set (MY_NAME MathLibrary)
 
-add_library
-(
+add_library (
     ${MY_NAME}
     
     source/arithmetic.cpp

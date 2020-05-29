@@ -1,7 +1,6 @@
 set (MY_NAME MathLibraryTests)
 
-add_executable
-(
+add_executable (
     ${MY_NAME}
     
     MathLibraryTest.cpp

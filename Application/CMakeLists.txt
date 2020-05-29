@@ -2,8 +2,7 @@ set (MY_NAME Application)
 
 include_directories(include)
 
-add_executable
-(
+add_executable (
     ${MY_NAME}
     
     source/program.cpp
